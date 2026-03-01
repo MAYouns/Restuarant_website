@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Restaurant Website
+
+A visually stunning and responsive modern restaurant website built with Next.js (App Router), React, Tailwind CSS 4, and Daisy UI.
+
+## Features
+
+- **Home Experience**: A welcoming landing page featuring the restaurant's vibe and hero section.
+- **Menu Display**: Beautifully presented digital menu using responsive cards and grids.
+- **Gallery**: Visual showcase of exquisite dishes, atmosphere, and restaurant facilities.
+- **Reservations**: Easy and accessible table booking capabilities.
+- **Reviews**: Customer testimonials section.
+- **Contact & About Us**: Comprehensive details on how to get in touch and the restaurant's history.
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [DaisyUI 5](https://daisyui.com/)
+- **Utilities**: `uuid`
 
 ## Getting Started
 
-First, run the development server:
+First, install the project dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server locally:
 
 ```bash
 npm run dev
@@ -10,27 +38,21 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.js` - Main landing page and hero section.
+- `src/app/menu` - Restaurant menu and offerings.
+- `src/app/gallery` - Photo gallery of dishes and location.
+- `src/app/reservations` - Table booking page.
+- `src/app/reviews` - Testimonials and user reviews.
+- `src/app/about` - About the restaurant.
+- `src/app/contact` - Location and contact details.
+- `src/app/api` - Backend API routes.
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new). Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
